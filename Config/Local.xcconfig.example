@@ -1,0 +1,3 @@
+// Your signing settings: copy to Local.xcconfig (ignored by git).
+DEVELOPMENT_TEAM = ABCDE12345
+AGENTTERM_BUNDLE_PREFIX = com.yourname

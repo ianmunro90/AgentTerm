@@ -1,0 +1,10 @@
+// Signing and identifiers for building AgentTerm yourself.
+//
+// Copy Local.xcconfig.example to Local.xcconfig (git ignores it) and set your Apple team and a
+// bundle-identifier prefix you own. The app is <prefix>.agentterm, its Share extension
+// <prefix>.agentterm.share, and their App Group group.<prefix>.agentterm (the app derives the
+// group from its bundle identifier at runtime).
+DEVELOPMENT_TEAM =
+AGENTTERM_BUNDLE_PREFIX = com.example
+
+#include? "Local.xcconfig"
